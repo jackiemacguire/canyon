@@ -14,6 +14,10 @@
 		0086FA92285905F600926031 /* canyon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0086FA90285905F600926031 /* canyon.xcdatamodeld */; };
 		0086FA94285905FA00926031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0086FA93285905FA00926031 /* Assets.xcassets */; };
 		0086FA97285905FB00926031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0086FA95285905FB00926031 /* LaunchScreen.storyboard */; };
+		C05B48FC2859205E00AF9E72 /* HowLongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B48FB2859205E00AF9E72 /* HowLongViewController.swift */; };
+		C05B4900285920F200AF9E72 /* TenMOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B48FF285920F200AF9E72 /* TenMOverViewController.swift */; };
+		C05B49022859211E00AF9E72 /* TweMOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B49012859211E00AF9E72 /* TweMOverViewController.swift */; };
+		C05B49042859213E00AF9E72 /* ThiMOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B49032859213E00AF9E72 /* ThiMOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		0086FA93285905FA00926031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0086FA96285905FB00926031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0086FA98285905FB00926031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05B48FB2859205E00AF9E72 /* HowLongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowLongViewController.swift; sourceTree = "<group>"; };
+		C05B48FF285920F200AF9E72 /* TenMOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenMOverViewController.swift; sourceTree = "<group>"; };
+		C05B49012859211E00AF9E72 /* TweMOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweMOverViewController.swift; sourceTree = "<group>"; };
+		C05B49032859213E00AF9E72 /* ThiMOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThiMOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				0086FA89285905F600926031 /* SceneDelegate.swift */,
 				0086FA8B285905F600926031 /* ViewController.swift */,
 				0086FA8D285905F600926031 /* Main.storyboard */,
+				C05B49032859213E00AF9E72 /* ThiMOverViewController.swift */,
+				C05B49012859211E00AF9E72 /* TweMOverViewController.swift */,
+				C05B48FF285920F200AF9E72 /* TenMOverViewController.swift */,
+				C05B48FB2859205E00AF9E72 /* HowLongViewController.swift */,
 				0086FA93285905FA00926031 /* Assets.xcassets */,
 				0086FA95285905FB00926031 /* LaunchScreen.storyboard */,
 				0086FA98285905FB00926031 /* Info.plist */,
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05B4900285920F200AF9E72 /* TenMOverViewController.swift in Sources */,
+				C05B49022859211E00AF9E72 /* TweMOverViewController.swift in Sources */,
 				0086FA8C285905F600926031 /* ViewController.swift in Sources */,
 				0086FA88285905F600926031 /* AppDelegate.swift in Sources */,
+				C05B49042859213E00AF9E72 /* ThiMOverViewController.swift in Sources */,
 				0086FA8A285905F600926031 /* SceneDelegate.swift in Sources */,
 				0086FA92285905F600926031 /* canyon.xcdatamodeld in Sources */,
+				C05B48FC2859205E00AF9E72 /* HowLongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
