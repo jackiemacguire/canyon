@@ -18,6 +18,9 @@
 		C05B4900285920F200AF9E72 /* TenMOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B48FF285920F200AF9E72 /* TenMOverViewController.swift */; };
 		C05B49022859211E00AF9E72 /* TweMOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B49012859211E00AF9E72 /* TweMOverViewController.swift */; };
 		C05B49042859213E00AF9E72 /* ThiMOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B49032859213E00AF9E72 /* ThiMOverViewController.swift */; };
+		C05B4906285924EB00AF9E72 /* StartTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B4905285924EB00AF9E72 /* StartTenViewController.swift */; };
+		C05B49082859251300AF9E72 /* StartTweViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B49072859251300AF9E72 /* StartTweViewController.swift */; };
+		C05B490A2859253C00AF9E72 /* StartThiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B49092859253C00AF9E72 /* StartThiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		C05B48FF285920F200AF9E72 /* TenMOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenMOverViewController.swift; sourceTree = "<group>"; };
 		C05B49012859211E00AF9E72 /* TweMOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweMOverViewController.swift; sourceTree = "<group>"; };
 		C05B49032859213E00AF9E72 /* ThiMOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThiMOverViewController.swift; sourceTree = "<group>"; };
+		C05B4905285924EB00AF9E72 /* StartTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTenViewController.swift; sourceTree = "<group>"; };
+		C05B49072859251300AF9E72 /* StartTweViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTweViewController.swift; sourceTree = "<group>"; };
+		C05B49092859253C00AF9E72 /* StartThiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartThiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				0086FA89285905F600926031 /* SceneDelegate.swift */,
 				0086FA8B285905F600926031 /* ViewController.swift */,
 				0086FA8D285905F600926031 /* Main.storyboard */,
+				C05B49092859253C00AF9E72 /* StartThiViewController.swift */,
+				C05B49072859251300AF9E72 /* StartTweViewController.swift */,
+				C05B4905285924EB00AF9E72 /* StartTenViewController.swift */,
 				C05B49032859213E00AF9E72 /* ThiMOverViewController.swift */,
 				C05B49012859211E00AF9E72 /* TweMOverViewController.swift */,
 				C05B48FF285920F200AF9E72 /* TenMOverViewController.swift */,
@@ -153,14 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05B49082859251300AF9E72 /* StartTweViewController.swift in Sources */,
 				C05B4900285920F200AF9E72 /* TenMOverViewController.swift in Sources */,
 				C05B49022859211E00AF9E72 /* TweMOverViewController.swift in Sources */,
 				0086FA8C285905F600926031 /* ViewController.swift in Sources */,
 				0086FA88285905F600926031 /* AppDelegate.swift in Sources */,
 				C05B49042859213E00AF9E72 /* ThiMOverViewController.swift in Sources */,
 				0086FA8A285905F600926031 /* SceneDelegate.swift in Sources */,
+				C05B490A2859253C00AF9E72 /* StartThiViewController.swift in Sources */,
 				0086FA92285905F600926031 /* canyon.xcdatamodeld in Sources */,
 				C05B48FC2859205E00AF9E72 /* HowLongViewController.swift in Sources */,
+				C05B4906285924EB00AF9E72 /* StartTenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
