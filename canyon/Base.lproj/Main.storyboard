@@ -720,12 +720,18 @@ exercise 12 exercise 13 exercise 14 exercise 15 exercise 16 exercise 1
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.92549020049999997" green="0.92549020049999997" blue="0.92549020049999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="jhQ-Ag-HBg" eventType="touchUpInside" id="IaG-Uy-6Mf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pAs-P8-Fh8"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="fgI-cE-dWL"/>
+                    <connections>
+                        <outlet property="nameOfPose" destination="XjP-ZI-Ltv" id="UCg-sS-dUi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9r1-84-Fx9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
