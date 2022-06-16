@@ -9,7 +9,7 @@ import UIKit
 
 class StartTenViewController: UIViewController {
 
-    @IBOutlet weak var nameOfPose: UILabel!
+    @IBOutlet weak var nameOfPose: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,9 +18,9 @@ class StartTenViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
-    let yogaPoses = [ "Downward Dog","Table Top","Child's Pose","Warrior I","Warrior II","Warrior III","Reverse Warrior","Garland Pose","Cat-Cow","Cobra Pose","Half Spinal Twist","Head To Knee Pose","Happy Baby Pose","Chair Pose","Lizard Pose"]
+        let yogaPoses = ["balancingtable","chair","halfpigeon","palmtree","reversetabletop","seatedmountain","staff","swayingpalmtree","threadtheneedle","twistedeasy"]
         
-    nameOfPose.text = yogaPoses.randomElement()
+    nameOfPose.image = UIImage(named:"\(yogaPoses.randomElement())")
     }
     
     /*

@@ -9,36 +9,12 @@ import UIKit
 
 class TenMOverViewController: UIViewController {
 
-    var yogaPoses = [
-        "Downward Dog" : "downwarddog", "Table Top" : "tabletop",
-        "Child's Pose" : "childspose",
-        "Warrior I" : "warriorone",
-        "Warrior II" : "warriortwo",
-        "Warrior III" : "warriorthree",
-        "Reverse Warrior" : "reversewarrior",
-        "Garland Pose" : "garlandpose",
-        "Cat-Cow" : "cat-cow",
-        "Cobra Pose" : "cobrapose",
-        "Half Spinal Twist" : "halftwist",
-        "Head To Knee Pose" : "hknee",
-        "Happy Baby Pose" : "happybaby",
-        "Chair Pose" : "chairpose",
-        "Lizard Pose" : "lizardpose"
-    ]
+    @IBOutlet weak var instructionsTitle: UILabel!
     
-
-    func showPose() {
-        var poseNames = [String] ()
-        var chosenPoses : [String : String] = [:]
-        for _ in 1...6 {
-            var rand = yogaPoses.randomElement()
-            var key = rand?.key
-            var value = rand?.value
-            chosenPoses[key!] = value!
-        }
+    @IBOutlet weak var instructionsBody: UILabel!
+    
+    @IBAction func beginButton(_ sender: Any) {
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
