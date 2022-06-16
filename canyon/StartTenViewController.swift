@@ -18,10 +18,10 @@ class StartTenViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
-        let yogaPoses = ["balancingtable","chair","halfpigeon","palmtree","reversetabletop","seatedmountain","staff","swayingpalmtree","threadtheneedle","twistedeasy"]
-        var randomInt = Int.random(in: 0..<yogaPoses.count)
-        var name = yogaPoses[randomInt]
-        nameOfPose.image = UIImage(named: name)
+        let yogaPoses = ["balancingtable","chair","halfpigeon","palmtree","reversetabletop","seatedmountain","staff","swayingpalmtree","threadtheneedle","twistedeasy","boat","downwarddog","catcow","garland","heattoknee","happybaby","lizard","goddess","cobra","lordofdance","childs","camel","highplank","onefoot","raisedlegs","lowlunge","oneleggedprayer","plough","abdominaltwist","spinaltwist","triangle","sideplank","tree"]
+         var randomInt = Int.random(in: 0..<yogaPoses.count)
+                var name = yogaPoses[randomInt]
+                nameOfPose.image = UIImage(named: name)
 
     }
     
