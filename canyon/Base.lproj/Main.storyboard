@@ -809,31 +809,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJl-zp-hpf">
-                                <rect key="frame" x="51" y="687" width="126" height="44"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50351160760000002" green="0.2148599625" blue="0.090524174269999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="26" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" red="0.92549020049999997" green="0.92549020049999997" blue="0.92549020049999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="jhQ-Ag-HBg" eventType="touchUpInside" id="IaG-Uy-6Mf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38u-82-SPs">
-                                <rect key="frame" x="237" y="687" width="126" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38u-82-SPs">
+                                <rect key="frame" x="144" y="728" width="126" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background">
@@ -855,13 +832,38 @@
                                     <segue destination="B53-O7-WKD" kind="show" id="MAz-UM-J7T"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJl-zp-hpf">
+                                <rect key="frame" x="167" y="634" width="80" height="44"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50351160760000002" green="0.2148599625" blue="0.090524174269999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="26" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.92549020049999997" green="0.92549020049999997" blue="0.92549020049999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="jhQ-Ag-HBg" eventType="touchUpInside" id="IaG-Uy-6Mf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pAs-P8-Fh8"/>
                         <color key="backgroundColor" red="0.50351160760000002" green="0.2148599625" blue="0.090524174269999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pAs-P8-Fh8" firstAttribute="trailing" secondItem="zJl-zp-hpf" secondAttribute="trailing" constant="144" id="JhM-Fz-Kr3"/>
-                            <constraint firstItem="pAs-P8-Fh8" firstAttribute="bottom" secondItem="zJl-zp-hpf" secondAttribute="bottom" constant="89" id="OVe-Ek-QNS"/>
-                            <constraint firstItem="zJl-zp-hpf" firstAttribute="leading" secondItem="pAs-P8-Fh8" secondAttribute="leading" constant="144" id="xf2-Lk-HN1"/>
+                            <constraint firstItem="pAs-P8-Fh8" firstAttribute="bottom" secondItem="38u-82-SPs" secondAttribute="bottom" constant="70" id="2KH-hF-oX8"/>
+                            <constraint firstItem="38u-82-SPs" firstAttribute="leading" secondItem="pAs-P8-Fh8" secondAttribute="leading" constant="144" id="BUZ-eg-feN"/>
+                            <constraint firstItem="pAs-P8-Fh8" firstAttribute="trailing" secondItem="zJl-zp-hpf" secondAttribute="trailing" constant="167" id="Ekh-IO-9ku"/>
+                            <constraint firstItem="zJl-zp-hpf" firstAttribute="leading" secondItem="pAs-P8-Fh8" secondAttribute="leading" constant="167" id="UiT-3W-6uW"/>
+                            <constraint firstItem="38u-82-SPs" firstAttribute="top" secondItem="zJl-zp-hpf" secondAttribute="bottom" constant="50" id="bB9-tY-ZRs"/>
+                            <constraint firstItem="pAs-P8-Fh8" firstAttribute="trailing" secondItem="38u-82-SPs" secondAttribute="trailing" constant="144" id="wQc-0C-irl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fgI-cE-dWL"/>
